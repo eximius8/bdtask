@@ -4,24 +4,32 @@
 # Скрипты для заданий
 Найти информацию о всех контрактах, связанных с сотрудниками департамента «Logistic». Вывести: contract_id, employee_name
 
-##task1.sql
+## task1.sql
+
+|name        | contract_id |
+|------------|-------------|
+|Egor Egorov | 3           |
+|Egor Egorov | 8           |
+|Egor Egorov | 18          |
+|Egor Egorov | 23          |
+|Alex Alexeev|20           |
 
 Найти среднюю стоимость контрактов, заключенных сотрудников Ivan Ivanov. Вывести: среднее значение amount
 
-##task2.sql
+## task2.sql
 
 Найти самую часто встречающуюся локации среди всех заказчиков. Вывести: location, count
 
-##task3.sql
+## task3.sql
 
 Найти контракты одинаковой стоимости. Вывести count, amount
 
-##task4.sql
+## task4.sql
 
 Найти заказчика с наименьшей средней стоимостью контрактов. Вывести customer_name, среднее значение amount
 
-##task5.sql
+## task5.sql
 
 Найти отдел, заключивший контрактов на наибольшую сумму. Вывести: department_name, sum
 
-```task6.sql```
+## task6.sql
