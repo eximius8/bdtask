@@ -1,6 +1,6 @@
 -- Создание таблицы департаментов
 CREATE TABLE Department (
-    id int NOT NULL,
+    id int NOT NULL AUTO_INCREMENT,
     Name varchar(255) NOT NULL,
     PRIMARY KEY (id)
 );
@@ -13,7 +13,7 @@ INSERT INTO Department (name) VALUES
 
 -- Создание таблицы клиентов
 CREATE TABLE Customer (
-    id int NOT NULL,
+    id int NOT NULL AUTO_INCREMENT,
     customer_name varchar(255) NOT NULL,
     location varchar(255) NOT NULL,
     PRIMARY KEY (id)
@@ -25,7 +25,7 @@ INSERT INTO Customer (customer_name, location) VALUES
 
 -- Создание таблицы работников
 CREATE TABLE Employees (
-    id int NOT NULL,
+    id int NOT NULL AUTO_INCREMENT,
     name varchar(255) NOT NULL,
     department_id int,
     PRIMARY KEY (id),
@@ -39,7 +39,7 @@ INSERT INTO Employees (department_id, name) VALUES
 
 -- Создание таблицы контрактов
 CREATE TABLE Contract (
-    id int NOT NULL,
+    id int NOT NULL AUTO_INCREMENT,
     customer_id int,
     date DATE NOT NULL,
     amount int unsigned NOT NULL,
